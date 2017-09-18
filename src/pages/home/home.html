@@ -1,18 +1,138 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Home</ion-title>
+
+    <ion-buttons end>
+          <button ion-button icon-only color="white">
+            <ion-icon name="camera"></ion-icon>
+          </button>
+        </ion-buttons>
+
+        <ion-buttons end>
+              <button ion-button icon-only color="white">
+                <ion-icon name="notifications"></ion-icon>
+              </button>
+            </ion-buttons>
+
+            <ion-buttons end>
+                  <button ion-button icon-only color="white">
+                    <ion-icon name="home"></ion-icon>
+                  </button>
+                </ion-buttons>
+
+
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+<ion-list no-lines style="margin-bottom: 0px;padding-bottom: 0px;">
+<b style="margin-left: 5px;color: gray;font-size: x-small;">MY CLASS</b>
+<b float-right style="margin-left: 5px;color: gray;font-size: x-small;margin-right: 2px;">VIEW ALL<ion-icon name="arrow-forward"></ion-icon></b>
+  <ion-item>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <ion-avatar item-start>
+      <img src="../../assets/i.jpg" style="width: 50px;height: 50px;border: 2px solid #488aff;">
+      <ion-label text-center style="font-size: small;">Start</ion-label>
+    </ion-avatar>
+
+    <ion-avatar item-content style="padding-right: 6px;">
+      <img src="../../assets/i.jpg" style="width: 50px;height: 50px;border: 2px solid #488aff;">
+      <ion-label text-center style="font-size: small;">Cher</ion-label>
+    </ion-avatar>
+
+    <ion-avatar item-content style="padding-right: 6px;">
+      <img src="../../assets/i.jpg" style="width: 50px;height: 50px;border: 2px solid #488aff;">
+      <ion-label text-center style="font-size: small;">Cher</ion-label>
+    </ion-avatar>
+
+    <ion-avatar item-content style="padding-right: 6px;">
+      <img src="../../assets/i.jpg" style="width: 50px;height: 50px;border: 2px solid #488aff;">
+      <ion-label text-center style="font-size: small;">Cher</ion-label>
+    </ion-avatar>
+
+    <ion-avatar item-content>
+      <img src="../../assets/i.jpg" style="width: 50px;height: 50px;border: 2px solid #488aff;">
+      <ion-label text-center style="font-size: small;">Cher</ion-label>
+    </ion-avatar>
+
+    <ion-avatar item-end>
+      <img src="../../assets/i.jpg" style="width: 50px;height: 50px;border: 2px solid #488aff;">
+      <ion-label text-center style="font-size: small;">End</ion-label>
+    </ion-avatar>
+
+  </ion-item>
+
+</ion-list>
+
+<div style="background-image: url('../../assets/i.jpg'); padding-top: 5px;">
+<ion-card>
+
+  <ion-item style="margin: 0px; padding-bottom: 0px;">
+    <ion-avatar item-start>
+      <img src="../../assets/i.jpg">
+    </ion-avatar>
+    <p style="font-size: xx-small;margin-left: 20%;margin-bottom: 0%;">Student</p>
+    <h2>Marty McFly </h2>
+    <p>November 5, 1955</p>
+
+    <button ion-button clear small item-right class="text-on-bottom" style="padding: 0px; margin: 0px;">
+      <ion-icon name="share-alt" style="font-size: 25px;color: black;"></ion-icon>
+    <div style="font-size: xx-small;color: gray;">Share</div>
+    </button>
+
+  </ion-item>
+
+  <img src="../../assets/hyperloop.png">
+
+    <p>Wait a minute. Wait a minute, Doc.      <ion-note float-right>
+            11h ago
+          </ion-note></p>
+
+
+
+  <ion-row>
+    <ion-col col-2>
+      <button ion-button clear small class="text-on-bottom" style="padding-left: 0px;">
+        <ion-icon name="thumbs-up" style="color: black;"></ion-icon>
+      <div style="font-size: xx-small;color: black;">12 Likes</div>
+      </button>
+    </ion-col>
+    <ion-col col-2>
+      <button ion-button clear small class="text-on-bottom">
+        <ion-icon name="text" style="color: black;"></ion-icon>
+        <div style="font-size: xx-small;color: black;">4 Comments</div>
+      </button>
+    </ion-col>
+
+    <ion-col col-4>
+      <button ion-button clear small>
+        <img src="../../assets/clap.gif" style="width: 40px; height: 40px;">
+        <div style="font-size: xx-small;">4 Comments</div>
+      </button>
+    </ion-col>
+
+    <ion-col col-2>
+      <button ion-button clear small style="padding: 0px;">
+        <ion-icon name="heart-outline" style="color: black;"></ion-icon>
+        <div style="font-size: xx-small;">4 Likes</div>
+      </button>
+    </ion-col>
+
+    <ion-col col-2>
+      <button ion-button clear small style="padding: 0px;">
+        <ion-icon name="warning" style="color: black;"></ion-icon>
+        <div style="font-size: xx-small;">4 Warnings</div>
+      </button>
+    </ion-col>
+
+  </ion-row>
+
+</ion-card>
+
+</div>
+
 </ion-content>
