@@ -60,7 +60,7 @@
     </ion-avatar>
 
     <ion-avatar item-end>
-      <img src="../../assets/i.jpg" style="width: 50px;height: 50px;border: 2px solid #488aff;">
+      <img src="../../assets/i.png" style="width: 50px;height: 50px;border: 2px solid #488aff;">
       <ion-label text-center style="font-size: small;">End</ion-label>
     </ion-avatar>
 
@@ -68,12 +68,12 @@
 
 </ion-list>
 
-<div style="background-image: url('../../assets/i.jpg'); padding-top: 5px;">
+<div style="background-image: url('../../assets/i.png'); padding-top: 5px;">
 <ion-card>
 
   <ion-item style="margin: 0px; padding-bottom: 0px;">
     <ion-avatar item-start>
-      <img src="../../assets/i.jpg">
+      <img src="../../assets/i.jpg" (click)="gotoProfile()">
     </ion-avatar>
     <p style="font-size: xx-small;margin-left: 20%;margin-bottom: 0%;">Student</p>
     <h2>Marty McFly </h2>
@@ -111,7 +111,7 @@
     <ion-col col-4>
       <button ion-button clear small>
         <img src="../../assets/clap.gif" style="width: 40px; height: 40px;">
-        <div style="font-size: xx-small;">4 Comments</div>
+        <div style="font-size: xx-small;">4 Claps</div>
       </button>
     </ion-col>
 
